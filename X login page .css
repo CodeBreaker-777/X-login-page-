@@ -1,0 +1,116 @@
+html,body{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-content: right;
+    justify-content: right;
+}
+
+.div1 {
+    color: whitesmoke;
+    padding-right: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.line1{
+    font-size: 50;
+}
+
+.join {
+    font-size: 30px;
+}
+
+.btn, .btn2 , .btn3,.btn4{
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.btn {
+    color: rgb(197, 165, 165);
+    border: 1px solid white;
+    transition: 0.3s ;
+}
+.btn2{
+    font-weight: bold;
+    border: 1px solid white ;
+    transition: 0.3s ;
+}
+.btn3{
+    background-color: rgba(1, 79, 181, 0.888);
+    color: white;
+    font-weight:bold ;
+    border: 1px solid rgba(1,79,181,0.888);
+    transition: 0.3s ;
+}
+.btn4{
+    background-color: black;
+    transition: none;
+    animation: none;
+    border-color:grey;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s ;
+    border: 1px solid white;
+}
+
+.line-container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 20px 0;
+}
+
+.line {
+    width: 100px;
+    border: none;
+    border-top: 1px solid whitesmoke;
+    margin: 0 10px;
+}
+
+.or {
+    font-size: 15px;
+    color: whitesmoke;
+    margin: 0 10px;
+}
+a{
+    font-weight: bold;
+    color: rgb(20, 72, 118);
+    cursor: pointer;
+}
+p{
+    font-size: 12;
+}
+.p2{
+    font-weight: bold;
+    font-size: 16;
+    cursor: pointer;
+}
+.div3{
+    display: flex;
+    padding-right: 500px;
+    padding-top: 150px;
+}
+
+.btn:hover{
+    scale: 1.1;
+    border: 2px solid white;
+}
+.btn2:hover{
+    scale: 1.1;
+    border: 2px solid white;
+}
+.btn3:hover{
+    scale: 1.1;
+    border: 2px solid white;
+}
+.btn4:hover{
+    scale: 1.1;
+    border: 2px solid white;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* complete
